@@ -1,0 +1,9 @@
+no mysql crie uma conexão e execute o seguinte script
+
+
+
+create database miniprojeto use miniprojeto create table nomes(
+id int primary key auto_increment,
+nome varchar(256) not null,
+sobrenome varchar(256) null) insert into nomes (nome, sobrenome)
+values ('Ronaldo','Fenômeno');
